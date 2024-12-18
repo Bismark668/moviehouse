@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    background-color: black;
+    background-color: rgb(12, 18, 26);
 }
 
 .nav-bar{
@@ -32,7 +32,7 @@
     }
 }
 
-.serac-bar{
+.search-bar{
     width: 90%;
     height: 20%;
     display: flex;
@@ -70,16 +70,17 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
     cursor: pointer;
 }
 
 .movies{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: relative;
-    width: 250px;
-    height: 400px;
+    width: 300px;
+    height: 450px;
 
     p{
         color: white;
