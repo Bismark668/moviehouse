@@ -75,7 +75,7 @@ export const Home = () => {
       </div>
 
       {/* Movie List */}
-      <div className="w-full bg-red-300 flex flex-wrap md:justify-start justify-center gap-12 pt-2 md:p-2 cursor-pointer">
+      <div className="w-full  flex flex-wrap md:justify-start justify-center gap-12 pt-2 md:p-2 cursor-pointer">
         {movies.length > 0 ? (
           movies.map((movie) => (
             <MovieCard
